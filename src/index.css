@@ -1,2 +1,27 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('./assets/Font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epilogue-Regular';
+  src: url('./assets/Font/Epilogue/static/Epilogue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    font-family: 'Epilogue-Regular', sans-serif;
+}
+
+.clashFont{
+    font-family: 'ClashDisplay-Bold', sans-serif;
+}
+.epilogueFont{
+    font-family: 'Epilogue-Regular', sans-serif;
+}
