@@ -15,6 +15,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Epilogue-SemiBold';
+  src: url('./assets/Font/Epilogue/static/Epilogue-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
     font-family: 'Epilogue-Regular', sans-serif;
 }
@@ -24,4 +31,8 @@ body{
 }
 .epilogueFont{
     font-family: 'Epilogue-Regular', sans-serif;
+}
+
+.epilogueFontSemiBold{
+    font-family: 'Epilogue-SemiBold', sans-serif;
 }
