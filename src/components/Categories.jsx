@@ -10,13 +10,9 @@ import {
   Users,
 } from "lucide-react";
 
-
-
-
 const Categories = () => {
   return (
     <div className="my-18 px-5">
-
       {/* Header */}
       <div className="flex flex-wrap justify-between items-center gap-4 mb-10 ">
         <div>
@@ -37,9 +33,8 @@ const Categories = () => {
       {/* Categories card */}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-
         {/* card-1 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <PencilRuler className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Design
@@ -51,7 +46,7 @@ const Categories = () => {
         </div>
 
         {/* card-2 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <BarChart2 className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Sales
@@ -62,9 +57,8 @@ const Categories = () => {
           </p>
         </div>
 
-
         {/* card-3 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <Megaphone className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Marketing
@@ -75,9 +69,8 @@ const Categories = () => {
           </p>
         </div>
 
-
         {/* card-4 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <Wallet className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Finance
@@ -88,9 +81,8 @@ const Categories = () => {
           </p>
         </div>
 
-
         {/* card-5 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <Monitor className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Technology
@@ -101,9 +93,8 @@ const Categories = () => {
           </p>
         </div>
 
-
         {/* card-6 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <Code2 className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Engineering
@@ -114,9 +105,8 @@ const Categories = () => {
           </p>
         </div>
 
-
         {/* card-7 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <Briefcase className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Business
@@ -127,9 +117,8 @@ const Categories = () => {
           </p>
         </div>
 
-
         {/* card-7 */}
-        <div className="p-8 flex flex-col border-[1px] border-[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
+        <div className="p-8 flex flex-col border border[#D6DDEB] hover:bg-[#4640DE] group cursor-pointer hover:duration-300">
           <Users className="w-12 h-12 mb-8 text-[#4C3EE8] group-hover:text-white" />
           <p className="text-[#25324B] clashFont text-2xl mb-3 group-hover:text-white">
             Human Resource
@@ -139,9 +128,17 @@ const Categories = () => {
             <FaArrowRight className="text-[#25324B] inline-block ml-2 group-hover:text-white" />
           </p>
         </div>
-
       </div>
 
+      <div className="my-6">
+        <a
+          href="#"
+          className="group flex items-center gap-2 text-[#4C3EE8] font-semibold text-sm flex md:hidden"
+        >
+          Show all jobs
+          <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+      </div>
     </div>
   );
 };

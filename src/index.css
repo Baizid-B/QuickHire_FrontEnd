@@ -2,37 +2,141 @@
 @plugin "daisyui";
 
 @font-face {
-  font-family: 'ClashDisplay-Bold';
-  src: url('./assets/Font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Bold.otf') format('truetype');
+  font-family: "ClashDisplay-Bold";
+  src: url("./assets/Font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Bold.otf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Epilogue-Regular';
-  src: url('./assets/Font/Epilogue/static/Epilogue-Regular.ttf') format('truetype');
+  font-family: "Epilogue-Regular";
+  src: url("./assets/Font/Epilogue/static/Epilogue-Regular.ttf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Epilogue-SemiBold';
-  src: url('./assets/Font/Epilogue/static/Epilogue-SemiBold.ttf') format('truetype');
+  font-family: "Epilogue-SemiBold";
+  src: url("./assets/Font/Epilogue/static/Epilogue-SemiBold.ttf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-body{
-    font-family: 'Epilogue-Regular', sans-serif;
+body {
+  font-family: "Epilogue-Regular", sans-serif;
 }
 
-.clashFont{
-    font-family: 'ClashDisplay-Bold', sans-serif;
+.clashFont {
+  font-family: "ClashDisplay-Bold", sans-serif;
 }
-.epilogueFont{
-    font-family: 'Epilogue-Regular', sans-serif;
+.epilogueFont {
+  font-family: "Epilogue-Regular", sans-serif;
 }
 
-.epilogueFontSemiBold{
-    font-family: 'Epilogue-SemiBold', sans-serif;
+.epilogueFontSemiBold {
+  font-family: "Epilogue-SemiBold", sans-serif;
+}
+
+.primaryColor {
+  color: #ffb836;
+  padding: 6px 16px;
+  background-color: #eb85331a;
+  border-radius: 80px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue-Regular", sans-serif;
+  line-height: 160%;
+}
+
+.latestPrimaryColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffb836;
+  background-color: transparent;
+  border: 1px solid #ffb836;
+  border-radius: 80px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue-Regular", sans-serif;
+}
+
+.latestSecondaryColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4640de;
+  background-color: transparent;
+  border: 1px solid #4640de;
+  border-radius: 80px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue-Regular", sans-serif;
+}
+
+.secondaryColor {
+  color: #56CDAD;
+  background-color: #56CDAD1A;
+  border-radius: 80px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue-Regular", sans-serif;
+  line-height: 160%;
+}
+
+.thirdColor {
+  color: #4640de;
+  background-color: #4640de1a;
+  border-radius: 80px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue-Regular", sans-serif;
+  line-height: 160%;
+}
+
+
+
+.firthColor {
+  color: #ff6550;
+  background-color: #ff65501a;
+  border-radius: 80px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue-Regular", sans-serif;
+  line-height: 160%;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 16px;
+  padding: 10px;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+}
+
+.bg-images {
+  background-image: url('../src/assets/AllImages/Desktop.svg');
+  /* background-size: cover; */
+  /* background-position: top; */
+  background-repeat: no-repeat;
 }
