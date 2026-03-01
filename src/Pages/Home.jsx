@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="mt-14 mb-20 relative overflow-hidden min-h-[650px] px-5">
+      <div className="mt-14 mb-20 relative overflow-hidden min-h-162.5 px-5">
         {/* Background Graphic placeholder */}
         <div className="absolute -right-10 top-90 h-62.5  md:-right-30 md:-top-16.5 md:w-[90%]">
           <img src={heroPatten} alt="Hero Pattern" />

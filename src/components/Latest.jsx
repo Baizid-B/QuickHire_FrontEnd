@@ -7,7 +7,7 @@ const Latest = () => {
   return (
     <div className="px-4 md:px-10 pt-18 relative">
       <img src={bgImages} alt="Background" className="absolute top-0 left-0 w-full h-full object-cover bg-top z-[-1]" />
-      <img src={rectangleImages} alt="Background" className="absolute top-0 left-0 w-[150px] md:w-[200px]  z-[-1]" />
+      <img src={rectangleImages} alt="Background" className="absolute top-0 left-0 w-37.5 md:w-50  z-[-1]" />
 
       {/* Header */}
       <div className="flex flex-wrap justify-between items-center gap-4 mt-5 mb-10 ">

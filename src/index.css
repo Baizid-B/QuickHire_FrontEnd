@@ -133,10 +133,3 @@ body {
   scroll-snap-align: start;
   flex: 0 0 auto;
 }
-
-.bg-images {
-  background-image: url('../src/assets/AllImages/Desktop.svg');
-  /* background-size: cover; */
-  /* background-position: top; */
-  background-repeat: no-repeat;
-}
